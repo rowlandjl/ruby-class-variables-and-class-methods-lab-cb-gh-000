@@ -33,7 +33,7 @@ class Song
         artist_array << artist
       end
     end
-    new_array
+    artist_array
   end
 
   def self.genre_count
