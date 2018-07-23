@@ -30,7 +30,7 @@ class Song
 
     @@artists.each do |artist|
       if !artist_array.include?(artist)
-        new_array << artist
+        artist_array << artist
       end
     end
     new_array
