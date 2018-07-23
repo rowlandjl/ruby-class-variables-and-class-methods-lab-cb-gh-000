@@ -30,7 +30,8 @@ class Song
       if !new_array.include?(artist)
         new_array << artist
       end
-    end 
+    end
+    new_array
   end
 
   def self.genre_count
