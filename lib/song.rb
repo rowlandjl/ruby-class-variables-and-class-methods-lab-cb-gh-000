@@ -9,7 +9,7 @@ class Song
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
-    @genre = genre 
+    @genre = genre
     @@count += 1
     @@genres << genre
     @@artists << artist
@@ -24,7 +24,9 @@ class Song
   end
 
   def self.artists
-    @@artists
+    new_array = []
+
+    @@artists.each do |artist| 
   end
 
   def self.genre_count
