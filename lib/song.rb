@@ -20,7 +20,7 @@ class Song
   end
 
   def self.genres
-
+    genre_array = []
 
     @@genres
   end
